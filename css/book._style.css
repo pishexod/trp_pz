@@ -1,0 +1,64 @@
+*{
+    font-size: 19px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.name-book{
+    margin-left: 10px;
+    /*margin: 20px;*/
+    /*width: 12vw;*/
+}
+.book{
+    padding: 10px;
+    border-bottom: 2px solid blue;
+    display: flex;
+    height: 25vh;
+}
+.book .name-cadet {
+    margin-left: 59.7%;
+    text-align: right;
+    /*color: rgba(22, 204, 0, 0.98);*/
+}
+.book .name-cadet h4{
+    color: rgba(22, 204, 0, 0.98);
+}
+.description-book{
+    margin-left: 10px;
+    border-bottom: 2px solid blue;
+}
+.author-book{
+    padding: 10px;
+    display: flex;
+    border-bottom: 2px solid blue;
+    /*height: 25vh;*/
+}
+.details{
+    margin-left: 90%;
+    color: rgba(22, 204, 0, 0.98);
+}
+.details-author{
+    /*display: flex;*/
+    /*margin-left: 10px;*/
+}
+.author-book .details{
+    margin-left: 90%;
+    color: rgba(22, 204, 0, 0.98);
+}
+
+.zmist-book h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 200;
+    color: brown;
+}
+
+.zmist-book h3 {
+    margin-left: 30px;
+    color: rgba(30, 85, 151, 0.98);
+}
