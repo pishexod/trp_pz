@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #42a5f5;
+    border-bottom: 3px solid #e53935;
+}
+
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+
+.auth a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+.commands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.commands h2{
+    margin-bottom: 3vh;
+}
+.commands h3{
+    margin-bottom: 3vh;
+}
+.commands p{
+    margin-bottom: 1vh;
+}
